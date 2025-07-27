@@ -1,14 +1,27 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0 20px;
 }
 
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
-  background-color: #B5CE88;
-  color: #333;
+.intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.liste-jeux {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.liste-jeux article {
+  background-color: #e9dbc2;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 200px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 header {
@@ -39,30 +52,17 @@ header nav a:hover {
   text-decoration: underline;
 }
 
-main {
-  max-width: 1000px;
-  margin: 20px auto;
-  padding: 0 20px;
+body {
+    background-color: #B5CE88;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
 }
 
-.intro {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.liste-jeux {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.liste-jeux article {
-  background-color: #e9dbc2;
-  padding: 20px;
-  border-radius: 10px;
-  flex: 1 1 200px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
@@ -73,11 +73,10 @@ footer {
   margin-top: 40px;
 }
 
-.logo {
+h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
 }
 
 .image-jeux {
